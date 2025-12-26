@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class ApiService {
-  static const String baseUrl = 'http://10.112.201.185:5000/api';
+  static const String baseUrl = 'https://earnsure-backend.onrender.com/api';
   // For real device: static const String baseUrl = 'http://YOUR_IP:5000/api';
 
   static const Duration _timeout = Duration(seconds: 15);
