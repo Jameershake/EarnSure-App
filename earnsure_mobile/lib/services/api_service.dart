@@ -6,7 +6,7 @@ class ApiService {
   static const String baseUrl = 'https://earnsure-backend.onrender.com/api';
   // For real device: static const String baseUrl = 'http://YOUR_IP:5000/api';
 
-  static const Duration _timeout = Duration(seconds: 15);
+  static const Duration _timeout = Duration(seconds: 60);
 
   static Future<String?> _getToken() async {
     try {
